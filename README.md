@@ -53,7 +53,7 @@ O sistema utiliza:
 Implementação manual de algoritmos clássicos:
 
 - ⚠️ **Bubble Sort** → ordenação por prioridade  
-- ☢️ **Selection Sort** → ordenação por combustível  
+- ⚠️ **Selection Sort** → ordenação por combustível  
 
 ---
 
@@ -92,7 +92,8 @@ Utilizando operadores:
 ## ⚙️ Como Executar
 
 ### 1. Clone o repositório
+### 2. Execute o arquivo main.py
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone 
 cd MGPEB_Aurora_Siger
