@@ -1,48 +1,105 @@
-# MGPEB - Módulo de Gerenciamento de Pouso e Estabilização de Base
+# 🚀 MGPEB - Módulo de Gerenciamento de Pouso e Estabilização de Base
 
-Este projeto foi desenvolvido como parte dos requisitos da **Missão Aurora Siger**. O objetivo é simular o sistema responsável por organizar pousos de módulos de uma colônia em Marte, gerenciar informações críticas da operação e estabelecer diretrizes de governança.
+Este projeto foi desenvolvido como parte da **Missão Aurora Siger**, com o objetivo de simular um sistema inteligente de controle de pouso de módulos em uma colônia em Marte.
 
-## 🚀 Sobre o Projeto
+---
 
-O **MGPEB** (Módulo de Gerenciamento de Pouso e Estabilização de Base) atua como a central de controle de tráfego orbital da colônia. Ele utiliza algoritmos clássicos de computação para garantir que módulos de habitação, energia, médicos e laboratoriais decolem e pousem com máxima segurança e prioridade técnica.
+## 🧠 Sobre o Projeto
 
-### Funcionalidades
-- **Modelagem de Módulos**: Cada módulo possui atributos como combustível, massa, criticidade e prioridade.
-- **Estruturas de Dados Lineares**: Utilização de filas (queues), pilhas (stacks) e listas para gerenciar o fluxo orbital.
-- **Lógica de Decisão**: Aplicação de funções booleanas para autorização ou bloqueio de pouso baseada em telemetria em tempo real.
-- **Algoritmos de Ordenação**: Implementação de *Bubble Sort* e *Selection Sort* para organização dinâmica da fila de pouso.
-- **Algoritmos de Busca**: Busca linear e binária para localização rápida de módulos críticos.
+O **MGPEB (Módulo de Gerenciamento de Pouso e Estabilização de Base)** funciona como uma **torre de controle orbital**, responsável por:
+
+- Gerenciar o fluxo de módulos
+- Priorizar pousos críticos
+- Garantir segurança operacional
+- Tomar decisões com base em dados de telemetria
+
+O sistema simula um ambiente realista onde diferentes módulos competem por autorização de pouso com base em critérios técnicos.
+
+---
+
+## ✨ Funcionalidades
+
+### 📦 Modelagem de Módulos
+Cada módulo possui atributos essenciais:
+
+- Combustível  
+- Massa  
+- Prioridade  
+- Criticidade  
+- Hora de chegada  
+- Status dos sensores  
+- Disponibilidade da área  
+
+---
+
+### 🧱 Estruturas de Dados
+
+O sistema utiliza:
+
+- **Fila (FIFO)** → gerenciamento da ordem de chegada  
+- **Pilha (LIFO)** → controle de alertas  
+- **Lista** → módulos já processados  
+
+---
+
+### 🧮 Algoritmos de Ordenação
+
+Implementação manual de algoritmos clássicos:
+
+- 🔁 **Bubble Sort** → ordenação por prioridade  
+- 🎯 **Selection Sort** → ordenação por combustível  
+
+---
+
+### 🔍 Algoritmos de Busca
+
+- 🔎 Busca linear por tipo  
+- ⛽ Identificação do menor combustível  
+- 🔤 Busca binária por nome  
+
+---
+
+### ⚙️ Lógica de Decisão
+
+Sistema baseado em regras:
+
+- ✅ **AUTORIZADO** → condições ideais  
+- ⚠️ **ALERTA** → situação crítica controlada  
+- ❌ **NEGADO** → risco elevado  
+
+Utilizando operadores:
+
+- `if`
+- `and`
+- `or`
+- `not`
+
+---
 
 ## 🎨 Interface Visual
 
-O projeto conta com uma interface de console customizada utilizando a biblioteca `colorama`, seguindo uma paleta de cores temática:
-- **Ciano**: Sucesso e Dados Nominais.
-- **Magenta/Roxo**: Estrutura e Critérios de Risco.
-- **Amarelo**: Alertas e Destaques de Busca.
+Interface no terminal utilizando `colorama`:
+
+- 🟦 Ciano → dados normais  
+- 🟪 Magenta → estrutura e títulos  
+- 🟨 Amarelo → alertas  
+- 🟥 Vermelho → falhas críticas  
+- 🟩 Verde → sucesso  
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem**: Python 3.x
-- **Bibliotecas**: `colorama` (Interface Visual), `collections` (Estruturas de Dados).
-- **Conceitos**: Portas Lógicas, Algoritmos de Busca e Ordenação, Princípios ESG (Governança).
+- **Python 3.x**
+- **colorama**
+- **collections (deque)**
+
+---
 
 ## ⚙️ Como Executar
 
-1. **Clone o repositório**:
-   ```bash
-   git clone <URL_DO_SEU_REPOSITORIO>
-   cd MGPEB_Aurora_Siger
-   ```
+### 1. Clone o repositório
 
-2. **Instale as dependências**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Execute o sistema**:
-   ```bash
-   python main.py
-   ```
-
----
-Este projeto faz parte da Fase 2 do curso de Ciência da Computação (FIAP).
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+cd MGPEB_Aurora_Siger
