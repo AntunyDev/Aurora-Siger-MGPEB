@@ -3,10 +3,11 @@ from modulos import MODULOS_MISSAO
 
 # 1. Busca linear — acha módulo por tipo
 def buscar_por_tipo(fila, tipo):
+    encontrados = []
     for m in fila:
         if m["tipo"] == tipo:
-            return m
-    return None
+            encontrados.append(m)
+    return encontrados
     
 # 2. Busca linear — acha o módulo com menor combustível
 def buscar_menor_combustivel(fila):
