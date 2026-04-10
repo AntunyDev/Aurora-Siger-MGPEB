@@ -91,9 +91,10 @@ Utilizando operadores:
 
 ## ⚙️ Como Executar
 
-### 1. Clone o repositório
-### 2. Execute o arquivo main.py
+## 1. Clone o repositório
 
-```bash
-git clone 
+git clone https://github.com/AntunyDev/Aurora-Siger-MGPEB.git
 cd MGPEB_Aurora_Siger
+
+## 2. Execute o arquivo main.py
+
