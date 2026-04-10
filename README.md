@@ -94,7 +94,6 @@ Utilizando operadores:
 ## 1. Clone o repositório
 
 git clone https://github.com/AntunyDev/Aurora-Siger-MGPEB.git
-cd MGPEB_Aurora_Siger
 
 ## 2. Execute o arquivo main.py
 
