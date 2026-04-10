@@ -1,4 +1,10 @@
-# 🚀 MGPEB - Módulo de Gerenciamento de Pouso e Estabilização de Base
+# 🚀 Aurora Siger 
+
+MGPEB - Módulo de Gerenciamento de Pouso e Estabilização de Base
+
+---
+
+## 🛰️ Descrição do Projeto
 
 Este projeto foi desenvolvido como parte da **Missão Aurora Siger**, com o objetivo de simular um sistema inteligente de controle de pouso de módulos em uma colônia em Marte.
 
@@ -8,10 +14,10 @@ Este projeto foi desenvolvido como parte da **Missão Aurora Siger**, com o obje
 
 O **MGPEB (Módulo de Gerenciamento de Pouso e Estabilização de Base)** funciona como uma **torre de controle orbital**, responsável por:
 
-- Gerenciar o fluxo de módulos
-- Priorizar pousos críticos
-- Garantir segurança operacional
-- Tomar decisões com base em dados de telemetria
+- 📌 Gerenciar o fluxo de módulos
+- 📌 Priorizar pousos críticos
+- 📌 Garantir segurança operacional
+- 📌 Tomar decisões com base em dados de telemetria
 
 O sistema simula um ambiente realista onde diferentes módulos competem por autorização de pouso com base em critérios técnicos.
 
@@ -19,20 +25,20 @@ O sistema simula um ambiente realista onde diferentes módulos competem por auto
 
 ## ✨ Funcionalidades
 
-### 📦 Modelagem de Módulos
+### 🔩 Modelagem de Módulos
 Cada módulo possui atributos essenciais:
 
-- Combustível  
-- Massa  
-- Prioridade  
-- Criticidade  
-- Hora de chegada  
-- Status dos sensores  
-- Disponibilidade da área  
+- 🌟 Combustível  
+- 🌟 Massa  
+- 🌟 Prioridade  
+- 🌟 Criticidade  
+- 🌟 Hora de chegada  
+- 🌟 Status dos sensores  
+- 🌟 Disponibilidade da área  
 
 ---
 
-### 🧱 Estruturas de Dados
+### 🎲 Estruturas de Dados
 
 O sistema utiliza:
 
@@ -46,8 +52,8 @@ O sistema utiliza:
 
 Implementação manual de algoritmos clássicos:
 
-- 🔁 **Bubble Sort** → ordenação por prioridade  
-- 🎯 **Selection Sort** → ordenação por combustível  
+- ⚠️ **Bubble Sort** → ordenação por prioridade  
+- ☢️ **Selection Sort** → ordenação por combustível  
 
 ---
 
@@ -74,19 +80,6 @@ Utilizando operadores:
 - `or`
 - `not`
 
----
-
-## 🎨 Interface Visual
-
-Interface no terminal utilizando `colorama`:
-
-- 🟦 Ciano → dados normais  
-- 🟪 Magenta → estrutura e títulos  
-- 🟨 Amarelo → alertas  
-- 🟥 Vermelho → falhas críticas  
-- 🟩 Verde → sucesso  
-
----
 
 ## 🛠️ Tecnologias Utilizadas
 
