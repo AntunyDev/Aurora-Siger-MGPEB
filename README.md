@@ -97,3 +97,6 @@ git clone https://github.com/AntunyDev/Aurora-Siger-MGPEB.git
 
 ## 2. Execute o arquivo main.py
 
+## 3. Vídeo Explicativo do Código / Algoritmo
+https://youtu.be/vBuxA1uMLa0
+
