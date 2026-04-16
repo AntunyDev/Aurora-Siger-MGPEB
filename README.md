@@ -95,8 +95,12 @@ Utilizando operadores:
 
 git clone https://github.com/AntunyDev/Aurora-Siger-MGPEB.git
 
-## 2. Execute o arquivo main.py
+## 2. Baixar requisições 
 
-## 3. Vídeo Explicativo do Código / Algoritmo
+pip install -r requirements.txt
+
+## 3. Execute o arquivo main.py
+
+## 4. Vídeo Explicativo do Código / Algoritmo
 https://youtu.be/vBuxA1uMLa0
 
