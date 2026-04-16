@@ -101,6 +101,8 @@ pip install -r requirements.txt
 
 ## 3. Execute o arquivo main.py
 
+py main.py
+
 ## 4. Vídeo Explicativo do Código / Algoritmo
 https://youtu.be/vBuxA1uMLa0
 
